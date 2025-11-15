@@ -35,19 +35,19 @@ ollama list
 ```
 You should see *mistral* listed.
 
-# 🧠 AmbedkarGPT – Intern Assignment (Phase 1)
 
-## 📁 Files
 
-### 📄 `speech.txt`
+## Files
+
+### `speech.txt`
 ➤ Contains the provided speech excerpt to ingest.
 
-### 🧩 `main.py`
+### `main.py`
 The command-line tool responsible for:
-- 📌 Loading `speech.txt`
-- ✂️ Splitting the text into chunks
-- 🗂️ Building or loading a **ChromaDB vectorstore** using HuggingFace embeddings
-- 🤖 Running a **CLI question–answer loop** grounded only in the speech context
+- Loading `speech.txt`
+- Splitting the text into chunks
+- Building or loading a **ChromaDB vectorstore** using HuggingFace embeddings
+- Running a **CLI question–answer loop** grounded only in the speech context
 
 ---
 
