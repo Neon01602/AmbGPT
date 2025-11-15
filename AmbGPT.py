@@ -13,7 +13,7 @@ from langchain.prompts import PromptTemplate
 
 # ---------------- PROMPT ---------------- #
 template = """
-You are AmbedkarGPT. Use the provided context to answer the question below.
+You are AmbGPT. Use the provided context to answer the question below.
 If the answer is not in the context, say "I don't know."
 
 Context:
@@ -128,3 +128,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
