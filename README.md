@@ -1,4 +1,4 @@
-# AmbedkarGPT-Intern-Task
+# AmbGPT-Intern-Task
 **Simple command-line Q&A system** that ingests a short speech by Dr. B.R.
 Ambedkar and answers questions using a local RAG pipeline (LangChain + Chroma +
 HuggingFace embeddings + Ollama Mistral 7B).
